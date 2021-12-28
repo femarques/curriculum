@@ -1,5 +1,7 @@
 # Curriculum Vitae
 
+<img src="./me.jpeg" alt="me" width="200"/>
+
 ## About me
 
 **Name:** Felipe Marques da Silva
