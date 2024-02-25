@@ -10,7 +10,7 @@ I've being working as a Software Developer since I finished it. Most of my knowl
 and I learned a lot from every place I worked.
 
 I'm experienced on designing resilient and evolvable software architectures, and producing testable, 
-extensible, maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
+extensible and maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
 software versioning, unit testing, HTTP APIs, and technical leadership.
 
 I'm looking for an opportunity to work and live abroad, as it would provide a better quality of life for my
