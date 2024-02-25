@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-<img src="./me.jpeg" alt="me" width="200"/>
+<img src="./me.JPG" alt="me" width="200"/>
 
 ## About me
 
@@ -14,18 +14,34 @@
 
 **Languages**: Portuguese (native), English (advanced)
 
-**Hobbies**: Playing guitar and singing, guitar tube amps designing, 
-playing video games 
+**Hobbies**: Playing guitar and singing, designing guitar tube amps, 
+playing video games
 
 ## Education
 
 #### University of São Paulo (2018)
 
-Bachelor's degree, Electronic Engineering, Escola de Engenharia de São Carlos.
+Bachelor's degree, Electric Engineering, Escola de Engenharia de São Carlos.
 
 ## Work Experience
 
-### **Backend Developer** - *Serasa Experian* (01/2021 - present)
+### **Software Engineer** - *Itaú Unibanco* (05/2022 - present)
+
+I designed an application for daily risk and P&L evalutation for Itaú's treasury.
+Used the following technologies:
+
+- *Python 3* as leading programming language;
+- *FastAPI* web framework for HTTP APIs;
+- AWS services such as *Amazon ECS*, *Amazon SQS*, *Amazon Elasticache*, *Amazon S3*;
+- *PostgreSQL* and *SQL Server* for database;
+- *Redis* for distributed caching.
+
+#### Key achievements
+- Led a team with 5 software engineers;
+- Produced a software with +85% of test coverage;
+- Won a prize for being a high performance employee;
+
+### **Backend Developer** - *Serasa Experian* (01/2021 - 05/2022)
 
 I designed microservices architecture for *Serasa Limpa Nome*, Brazil's biggest debt collection platform,
 using the following technologies:
@@ -58,7 +74,7 @@ using following technologies:
 
 #### Key achievements
 
-- Designed and developed testable loan calculators of SAC and PRICE tables;
+- Designed and developed testable loan calculators of Constant Amortization and Constant Price monthly payments;
 - Designed and developed SCR (BACEN's 3040) queries service.
 
 ### **Data scientist** - *brain4care* (03/2018 - 11/2019)
@@ -73,9 +89,9 @@ trend/pulsating signals separation, etc);
 
 #### Key achievements
 
-- Analyzed data for a R&R (reproducibility and repeatability) study of a novel 
+- Analyzed data for a R&R (reproducibility and repeatability) study for a novel 
 non-invasive intra-cranial pressure sensor;
-- Analyzed data for a diabetes x non-invasive ICP signal study performed by UFSCar and brain4care;
+- Analyzed data for a diabetes x non-invasive ICP signal study conduced by UFSCar and brain4care;
 - Backend API for querying patient's multi parametric signals, for visualisation 
 purposes - designed a graph compression algorithm to limit the amount of points
 retrieved based on client's screen resolution. 
