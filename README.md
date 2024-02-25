@@ -4,18 +4,17 @@
 
 ## About me
 
-**Name:** Felipe Marques da Silva
+Hi! I'm Felipe Marques da Silva, 29 years old, and I live with my girlfriend and my 2 cats
+in São Paulo - Brazil. Although I have a degree in Electrical Engineering by Universidade de São Paulo, 
+I work as a Software Developer since I got it. Most of my knowledge on software development was self-taughted, 
+and I learned a lot from every place I worked.
 
-**Date of Birth:** 29 September 1994
+I'm experienced on designing resilient and evolvable software architectures, and producing testable, 
+extensible, maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
+software versioning, unit testing, HTTP APIs, and technical leadership.
 
-**Nationality**: Brazilian
-
-**Email**: femarques01@gmail.com
-
-**Languages**: Portuguese (native), English (advanced)
-
-**Hobbies**: Playing guitar and singing, designing guitar tube amps, 
-playing video games
+I'm looking for an opportunity to work and live abroad, as it would provide a better quality of life for my
+family, push me out of my confort zone, let me know other cultures, and make some childish dreams come true.
 
 ## Education
 
@@ -41,7 +40,7 @@ Used the following technologies:
 - Produced a software with +85% of test coverage;
 - Won a prize for being a high performance employee;
 
-### **Backend Developer** - *Serasa Experian* (01/2021 - 05/2022)
+### **Backend Developer** - *Experian* (01/2021 - 05/2022)
 
 I designed microservices architecture for *Serasa Limpa Nome*, Brazil's biggest debt collection platform,
 using the following technologies:
