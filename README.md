@@ -90,7 +90,7 @@ trend/pulsating signals separation, etc);
 
 - Analyzed data for a R&R (reproducibility and repeatability) study for a novel 
 non-invasive intra-cranial pressure sensor;
-- Analyzed data for a diabetes x non-invasive ICP signal study conduced by UFSCar and brain4care;
+- Analyzed data for a diabetes x non-invasive ICP signal study conducted by UFSCar and brain4care;
 - Backend API for querying patient's multi parametric signals, for visualisation 
 purposes - designed a graph compression algorithm to limit the amount of points
 retrieved based on client's screen resolution. 
