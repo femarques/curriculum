@@ -14,7 +14,7 @@ extensible, maintainable Python code. I have solid skills on OOP, SOLID principl
 software versioning, unit testing, HTTP APIs, and technical leadership.
 
 I'm looking for an opportunity to work and live abroad, as it would provide a better quality of life for my
-family, push me out of my confort zone, let me know other cultures, and make some childish dreams come true.
+family, push me out of my comfort zone, let me know other cultures, and make some childish dreams come true.
 
 ## Education
 
@@ -24,7 +24,7 @@ Bachelor's degree, Electric Engineering, Escola de Engenharia de São Carlos.
 
 ## Work Experience
 
-### **Software Engineer** - *Itaú Unibanco* (05/2022 - present)
+### **Senior Software Engineer** - *Itaú Unibanco* (05/2022 - present)
 
 I designed an application for daily risk and P&L evalutation for Itaú's treasury.
 Used the following technologies:
@@ -40,7 +40,7 @@ Used the following technologies:
 - Produced a software with +85% of test coverage;
 - Won a prize for being a high performance employee;
 
-### **Backend Developer** - *Experian* (01/2021 - 05/2022)
+### **Senior Backend Developer** - *Experian* (01/2021 - 05/2022)
 
 I designed microservices architecture for *Serasa Limpa Nome*, Brazil's biggest debt collection platform,
 using the following technologies:
