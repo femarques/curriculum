@@ -6,7 +6,7 @@
 
 Hi! I'm Felipe Marques da Silva, 29, and I live with my girlfriend and my 2 cats
 in São Paulo - Brazil. Although I have a degree in Electrical Engineering by Universidade de São Paulo, 
-I work as a Software Developer since I got it. Most of my knowledge on software development was self-taughted, 
+I've being working as a Software Developer since I finished it. Most of my knowledge on software development was self-taughted, 
 and I learned a lot from every place I worked.
 
 I'm experienced on designing resilient and evolvable software architectures, and producing testable, 
