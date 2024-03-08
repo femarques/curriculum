@@ -13,9 +13,6 @@ I'm experienced on designing resilient and evolvable software architectures, and
 extensible and maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
 software versioning, unit testing, HTTP APIs, and technical leadership.
 
-I'm looking for an opportunity to work and live abroad, as it would provide a better quality of life for my
-family, push me out of my comfort zone, let me know other cultures, and make some childish dreams come true.
-
 ## Education
 
 #### University of São Paulo (2018)
