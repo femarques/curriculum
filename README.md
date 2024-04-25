@@ -13,6 +13,12 @@ I'm experienced on designing resilient and evolvable software architectures, and
 extensible and maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
 software versioning, unit testing, HTTP APIs, and technical leadership.
 
+### Contact me
+
+**Phone:** +5516991722315
+
+**Email:** femarques01@gmail.com
+
 ## Education
 
 #### University of São Paulo (2018)
