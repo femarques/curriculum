@@ -5,17 +5,18 @@
 ## Sobre mim
 
 Olá! Eu sou o Felipe Marques da Silva, tenho 29 anos, e moro com minha namorada e meus dois gatos em São Paulo/SP.
-Embora eu tenha me formado engenheiro eletricista pela Universidade de São Paulo, eu trabalho como Desenvolvedor de
-Software desde que me graduei. A maioria dos meus conhecimentos em Engenharia de Software foi adquirida sendo
-auto-didata, e também aprendi muito com cada uma das experiências profissionais que tive.
+Embora eu tenha me formado Engenheiro Eletricista pela Universidade de São Paulo, eu trabalho como Desenvolvedor de
+Software e áreas correlatas desde que me graduei. A maioria dos meus conhecimentos em Engenharia de Software foi
+adquirida sendo auto-didata, e também aprendi muito com cada uma das experiências profissionais que tive. Escuto,
+escrevo e leio em inglês muito bem, e tenho um pouco de dificuldade para falar.
 
-Tenho experiência em projetar arquiteturas de software resilientes e evoluíveis, e em produzir código testável, e
-manutenível em Python. Tenho sólidas habilidades com OOP, princípios SOLID, Versionamento de Software Git, Serviços de
-Nuvem AWS, testes unitários, APIs HTTP, e liderança técnica.
+Tenho experiência em projetar arquiteturas de software resilientes e evoluíveis, e em produzir código simples, testável,
+e manutenível em Python. Tenho sólidas habilidades com orientação a objetos, princípios SOLID, versionamento de software
+Git, serviços de nuvem AWS, testes unitários, APIs HTTP, e liderança técnica.
 
 ### Meus contatos
 
-**Phone:** +55 16 99172-2315
+**Celular:** +55 16 99172-2315
 
 **Email:** femarques01@gmail.com
 
@@ -23,63 +24,77 @@ Nuvem AWS, testes unitários, APIs HTTP, e liderança técnica.
 
 #### Universidade de São Paulo (2018)
 
-Bacharel em Engenharia Elétrica, Escola de Engenharia de São Carlos.
+Bacharel em Engenharia Elétrica com ênfase em Eletrônica, Escola de Engenharia de São Carlos.
 
 ## Experiência profissional
 
 ### **Engenheiro de software sênior** - *Itaú Unibanco* (05/2022 - hoje)
 
-Projetei e desenvolvi uma aplicação para cálculo de Risco e Resultado diário para parte da tesouraria do Itaú.
-Utilizei as seguintes tecnologias:
+Liderei um projeto de modernização do cálculo do resultado financeiro diário de parte das operações da Tesouraria, para
+acompanhamento e conferência dos operadores.
 
-- *Python 3* como linguagem de programação;
-- *FastAPI* como framework Web;
-- Serviços da AWS como *Amazon ECS*, *Amazon SQS*, *Amazon Elasticache*, *Amazon S3*;
-- *PostgreSQL* e *SQL Server* como Bancos de Dados;
-- *Redis* para cache distribuído.
+> Anteriormente, este processo era feito por um conjunto de planilhas Excel e seus principais problemas eram a falta
+> de robustez, a lentidão para executar o processo (+5h/dia), a dependência de pessoas para executá-lo e a limitação de
+> recursos tecnológicos para lidar com o grande volume de dados.
+>
+> O processo foi dividido em +50 rotinas, que poderiam ser acionadas dinamicamente por endpoints HTTP expostos em um
+> SwaggerUI. Projetamos uma API monolítica, orientada a casos de uso e dividida em camadas, atingindo 85% de cobertura 
+> de testes unitários, com baixíssima manutenção e suporte ao usuário no dia-a-dia.
+>
+> Ao final do projeto as rotinas diárias eram executadas automaticamente em menos de 1h (-80%) com enorme
+> confiança e robustez devido à extensa cobertura de testes. Os relatórios eram consumidos pelo Excel, proporcionado
+> alta adesão do usuário e eliminando a necessidade da criação de um front-end.
 
-#### Principais realizações
+**Tecnologias:** *Python3, Pytest, Pandas, FastAPI, SQLServer, SOAP, HTTP, Docker, Kubernetes*
 
-- Liderei tecnicamente um time de 5 desenvolvedores;
-- Produzi um software com mais de 85% de cobertura de testes;
-- Ganhei um prêmio por alto desempenho.
+Durante o período desempenhado na empresa, fui reconhecido por alto desempenho, e também recebi um aumento 
+de salário.
 
-### **Desenvolvedor Backend Sênior** - *Experian* (01/2021 - 05/2022)
+### **Desenvolvedor Backend** (Pleno e Sênior) - *Experian* (01/2021 - 05/2022)
 
-Desenvolvi serviços em uma arquitetura de microserviços para o *Serasa Limpa Nome*, utilizando as seguintes tecnologias:
+Liderei um projeto para alterar a exibição das ofertas de acordo do Serasa Limpa Nome, adicionando um banner 
+"Baixou R$ X" caso a oferta enquadrasse em determinadas regras de negócio.
 
-- *Python 3* como linguagem de programação;
-- *Flask* e *FastAPI* como frameworks Web;
-- Serviços AWS como *Amazon SQS*, *Amazon SNS*, *Amazon Lambda*, *Amazon S3*;
-- *PostgreSQL* como banco de dados;
-- *Redis* como cache distribuído;
-- *Flagr* como solução de Feature Flags;
-- *Kubernetes* para orquestração de containers.
+> As principais complexidades do projeto eram: a geração on-line do banner no momento do acesso do usuário; o conteúdo
+> deveria ser baseado no histórico de ofertas visualizadas de cada usuário; e a adição do banner não deveria onerar o
+> carregamento da página.
+>
+> Criamos uma arquitetura CQRS (2 serviços) para gerar os banners e consultá-los separadamente, possibilitamos
+> a configuração de testes A/B e de roll-out em tempo real da funcionalidade. Aplicamos testes de carga para dimensionar
+> os serviços e criamos um dashboard para monitorar o tempo de execução da geração e consulta dos banners. Cada etapa do 
+> processo emitia eventos para posteriores análises estatísticas.
+>
+> Como resultado, o aparato conseguiu cumprir todos os requisitos funcionais e não-funcionais utilizando 2 réplicas 
+> de 0,5 vCPU e 0,5 GB RAM cada para gerar banners para um volume de 200 usuários/min, com p95 < 500ms/usuário, e 6 
+> réplicas de mesmo tamanho para servir 10k consultas/min, com p95 < 200ms. Todo o projeto levou aproximadamente 5 
+> meses para ser colocado em produção, sendo considerado um sucesso.
 
-#### Principais realizações
+**Tecnologias:** *Python3, FastAPI, Flagr, Locust, ElasticSearch, Redis, Amazon SQS, Amazon SNS, Splunk, Kubernetes,
+Docker, AWS*
 
-- Desenvolvi uma solução para observabilidade que:
-    - Captura e cataloga erros não tratados em aplicações Flask/FastAPI;
-    - Rastreia e correlaciona requests e logs entre todos os serviços monitorados.
+Durante o período trabalhado na empresa fui promovido para nível Sênior, e depois ganhei um aumento de salário.
 
-### **Desenvolvedor Backend** - *QI Tech* (11/2019 - 01/2021)
+### **Desenvolvedor Backend** (Jr e Pleno) - *QI Tech* (11/2019 - 01/2021)
 
-Desenvolvi serviços em uma arquitetura de microserviços para uma fintech focada em empréstimos, utilizando as seguintes
-tecnologias:
+Desenvolvi um serviço para ofertar consultas SCR aos clientes, controlar as autorizações das pessoas consultadas, e 
+a quantidade de consultas realizadas pelos clientes no mês para fins de cobrança.
 
-- *Python 3* como linguagem de programação;
-- *Falcon* e *FastAPI* como framework Web;
-- Serviços da Google Cloud Platform como *Google PubSub*, *Google Storage*;
-- *MySQL* como banco de dados;
-- *Kubernetes* para orquestração de containers.
+> As complexidades do projeto eram: realizar a integração junto ao BACEN para realizar a consulta; e garantir 
+> que a consulta só poderia ser realizada caso a pessoa consultada assinasse digitalmente um documento dando anuência.
+> 
+> O projeto envolveu: criar templates de documentos e populá-los programaticamente; realizar integrações com o serviço
+> gerador de documentos, o de assinatura digital (já existentes) e com o BACEN propriamente dito, enviando requisições
+> e recebendo webhooks; controlar o estado do processo todo para dar visibilidade ao cliente e para permitir uma 
+> automação.
+> 
+> Ao final, todo o processo ficou automatizado, mais um serviço pôde ser ofertado pela QI Tech, e nossos clientes
+> obtiveram os dados necessários para realizar uma boa análise de risco de crédito em seus funis.
 
-#### Principais realizações
+**Tecnologias**: *Python 3, Falcon, FastAPI, GCP, Google PubSub, Google Storage, MySQL, Kubernetes, Docker* 
 
-- Ganhei um prêmio por alto desempenho;
-- Desenvolvi calculadoras testáveis de empréstimo para tabelas SAC e PRICE;
-- Desenvolvi um serviço para consultas SCR (BACEN 3040).
+Durante o tempo desempenhado na empresa fui premiado por alta desempenho, e depois obtive um aumento de salário.
 
-### **Cientista de Dados** - *brain4care* (03/2018 - 11/2019)
+### **Cientista de Dados** (Estágiário e Jr) - *brain4care* (03/2018 - 11/2019)
 
 Desenvolvimento/manutenção de:
 
