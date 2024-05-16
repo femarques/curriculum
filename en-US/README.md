@@ -1,99 +1,115 @@
 # Curriculum Vitae
 
-<img src="./me.JPG" alt="me" width="200"/>
+<img src="../me.JPG" alt="me" width="200"/>
 
-## About me
+## About Me
 
-Hi! I'm Felipe Marques da Silva, 29, and I live with my girlfriend and my 2 cats
-in São Paulo - Brazil. Although I have a degree in Electrical Engineering by Universidade de São Paulo, 
-I've being working as a Software Developer since I finished it. Most of my knowledge on software development was self-taughted, 
-and I learned a lot from every place I worked.
+Hi! My name is Felipe Marques da Silva, I'm 29 years old, and I live with my girlfriend and our two cats in São
+Paulo/SP. Although I graduated as an Electrical Engineer, I've been working as a Software Developer and in related
+fields since I graduated. Most of my knowledge in Software Engineering was acquired through self-teaching, and I've also
+learned a lot from each of the professional experiences I've had. I listen to, write, and read English very well, and I
+have a little difficulty speaking it.
 
-I'm experienced on designing resilient and evolvable software architectures, and producing testable, 
-extensible and maintainable Python code. I have solid skills on OOP, SOLID principles, AWS cloud services, 
-software versioning, unit testing, HTTP APIs, and technical leadership.
+I have experience in designing resilient and scalable software architectures, and in producing simple, testable, and
+maintainable code in Python. I have solid skills in technical leadership, object-oriented programming, SOLID principles,
+software versioning with Git, Clean Code, AWS cloud services, unit and integration testing, and HTTP APIs.
 
-### Contact me
+### Contact Information
 
-**Phone:** +5516991722315
+**Phone:** +55 16 99172-2315
 
 **Email:** femarques01@gmail.com
 
 ## Education
 
+#### Software Architecture Training (2021)
+
+Software Architect Training Program promoted by Experian, with classes taught by Elemar Jr.
+
 #### University of São Paulo (2018)
 
-Bachelor's degree, Electric Engineering, Escola de Engenharia de São Carlos.
+Bachelor of Electrical Engineering with emphasis on Electronics, São Carlos School of Engineering.
 
-## Work Experience
+## Professional Experience
 
-### **Senior Software Engineer** - *Itaú Unibanco* (05/2022 - present)
+### **Senior Software Engineer** - *Itaú Unibanco* (05/2022 - Present)
 
-I designed an application for daily risk and P&L evalutation for Itaú's treasury.
-Used the following technologies:
+I was the technical lead on a project to modernize the daily financial result calculation for part of the Treasury's
+operations, for monitoring and operator verification.
 
-- *Python 3* as leading programming language;
-- *FastAPI* web framework for HTTP APIs;
-- AWS services such as *Amazon ECS*, *Amazon SQS*, *Amazon Elasticache*, *Amazon S3*;
-- *PostgreSQL* and *SQL Server* for database;
-- *Redis* for distributed caching.
+> Previously, this process was done through a set of Excel spreadsheets and its main problems were the lack of
+> robustness, slowness to execute the process (+5h/day), dependence on people to execute it, and technological resource
+> limitations to handle the large volume of data.
+>
+> The process was divided into +50 routines, which could be dynamically triggered by HTTP endpoints exposed in a
+> SwaggerUI. We designed a monolithic API, focused on use cases and divided into layers, achieving 85% unit test
+> coverage,
+> with very low maintenance and user support on a day-to-day basis.
+>
+> By the end of the project, the daily routines were executed automatically in less than 1 hour (-80%) with enormous
+> confidence and robustness due to extensive test coverage. The reports were consumed by Excel, providing high user
+> adoption and eliminating the need for a front-end.
 
-#### Key achievements
-- Led a team with 5 software engineers;
-- Produced a software with +85% of test coverage;
-- Won a prize for being a high performance employee;
+**Technologies:** *Python3, Pytest, Pandas, FastAPI, SQLServer, SOAP, HTTP, Docker, Kubernetes, AWS*
 
-### **Senior Backend Developer** - *Experian* (01/2021 - 05/2022)
+During my time at the company, I was recognized for high performance, and also received a salary increase.
 
-I designed microservices architecture for *Serasa Limpa Nome*, Brazil's biggest debt collection platform,
-using the following technologies:
+### **Backend Developer** (Mid and Senior) - *Experian* (01/2021 - 05/2022)
 
-- *Python 3* as leading programming language;
-- *Flask* and *FastAPI* web frameworks for HTTP APIs;
-- AWS services such as *Amazon SQS*, *Amazon SNS*, *Amazon Lambda*, *Amazon S3*;
-- *PostgreSQL* as relational database; 
-- *Redis* as distributed cache;
-- *Flagr* as feature flagging solution;
-- *Kubernetes* for container orchestration.
+I was technical lead on a project to change the display of debt renegotiation offers from Serasa Limpa Nome, adding
+a banner "Dropped R$ X" if the offer met certain business rules.
 
-#### Key achievements
+> The main complexities of the project were: the high volume of requests (10k-40k reqs/min); and adding the banner
+> should not burden the offer page loading.
+>
+> We created a CQRS architecture (2 services) to generate and query the banners separately, and enabled A/B testing
+> configuration and real-time roll-out of the functionality. We applied load tests to scale the services and created a
+> dashboard to monitor the execution time of banner generation and query. Each step of the process emitted events for
+> further statistical analysis.
+>
+> As a result, the apparatus was able to meet all functional and non-functional requirements using few computational
+> resources, ensuring a smooth user experience. The entire project took approximately 5 months to be put into production
+> and was considered a success.
 
-- Designed a free, non-blocking, distributed, plug-n-play monitoring solution that:
-  - Captures and catalogues uncaught errors inside Flask/FastAPI applications;
-  - Traces and correlates requests and logs across all monitored services;
-  - Supports general leveled logging.
-  
-### **Backend Developer** - *QI Tech* (11/2019 - 01/2021)
+**Technologies:** *Python3, FastAPI, Flagr, Locust, ElasticSearch, Redis, Amazon SQS, Amazon SNS, Splunk, Kubernetes,
+Docker, AWS*
 
-I designed and developed microservices architecture for loan focused fintech, 
-using following technologies:
+During my time at the company, I was promoted to Senior level and also received a salary increase.
 
-- *Python 3* as leading programming language;
-- *Falcon* and *FastAPI* web frameworks for REST APIs;
-- Google Cloud Platform services such as *Google PubSub*, *Google Storage*;
-- *MySQL* as relational database;
-- *Kubernetes* for container orchestration.
+### **Backend Developer** (Junior and Mid) - *QI Tech* (11/2019 - 01/2021)
 
-#### Key achievements
+I developed a service to offer SCR inquiries to the company's clients, control the authorizations of the consulted
+people, and the number of inquiries made by clients in the month for billing purposes.
 
-- Designed and developed testable loan calculators of Constant Amortization and Constant Price monthly payments;
-- Designed and developed SCR (BACEN's 3040) queries service.
+> The complexities of the project were: integrating with BACEN to make the inquiry; and ensuring that the inquiry could
+> only be made if the consulted person digitally signed a document giving consent.
+>
+> The project involved: creating HTML document templates and populating them programmatically; integrating with the
+> document generator service, the digital signature service, and with BACEN itself, sending requests and receiving
+> webhooks; controlling the state of the entire process to give visibility to the client and to allow automation.
+>
+> In the end, the entire process was automated, another service could be offered by the company, and our clients
+> obtained the necessary data to perform a good credit risk analysis in their funnels.
 
-### **Data scientist** - *brain4care* (03/2018 - 11/2019)
+**Technologies:** *Python 3, Falcon, FastAPI, GCP, Google PubSub, Google Storage, MySQL, Kubernetes, Docker*
 
-Development/maintenance of:
+During my time at the company, I was recognized for high performance, and later received a salary increase.
 
-- Data acquisition/storage system for ICU multi parametric monitors;
-- Signal processing algorithms for acquired data (noise reduction, pulse identification, 
-trend/pulsating signals separation, etc);
-- Time series data clustering and feature extraction algorithms using machine learning state-of-art techniques;
-- Data statistical analysis algorithms, for scientific article production.
+### **Data Scientist** (Intern and Junior) - *brain4care* (03/2018 - 11/2019)
 
-#### Key achievements
+I developed several algorithms for acquisition, processing, and analysis of vital signs from patients of partner
+hospitals.
 
-- Analyzed data for a R&R (reproducibility and repeatability) study for a novel 
-non-invasive intra-cranial pressure sensor;
-- Analyzed data for a diabetes x non-invasive ICP signal study conducted by UFSCar and brain4care;
-- Backend API for querying patient's multi parametric signals, for visualisation 
-purposes - designed a graph compression algorithm to limit the amount of points
-retrieved based on client's screen resolution. 
+> I built an auto-encoder neural network to reduce the dimensionality of time series of arterial pressure pulses,
+> gold standard intra-cranial pressure, and non-invasive intra-cranial pressure. With this, we could extract features
+> from the signals, cluster them, and even compare them in this lower dimensional space.
+>
+> I conducted statistical analyses for clinical studies conducted by the company in partnership with various researchers
+> and hospitals, highlighting a reproducibility and repeatability study of the sensor for FDA approval and a study to
+> check the hypothesis that signals from the non-invasive sensor could help identify individuals with type II diabetes
+> mellitus.
+>
+> I created a REST API for visualization of captured vital signs, with the creation of an algorithm for data
+> compression (reduction), preserving the waveforms of the signals.
+
+**Technologies:** *Python 2, Flask, AWS, Keras, Tensorflow, Pandas, Scipy, SKLearn, Numpy*
