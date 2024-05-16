@@ -7,8 +7,8 @@
 Olá! Meu nome é Felipe Marques da Silva, tenho 29 anos, e moro com minha namorada e nossos dois gatos em São Paulo/SP.
 Embora tenha me formado Engenheiro Eletricista, eu trabalho como Desenvolvedor de Software e áreas correlatas desde
 que me graduei. A maioria dos meus conhecimentos em Engenharia de Software foi adquirida sendo auto-didata, e também
-aprendi muito com cada uma das experiências profissionais que tive. Escuto, escrevo e leio em inglês muito bem, e tenho
-um pouco de dificuldade para falar.
+aprendi muito com cada uma das experiências profissionais que tive. Escuto, escrevo e leio em inglês em nível avançado,
+e falo em nível intermediário.
 
 Tenho experiência em projetar arquiteturas de software resilientes e evoluíveis, e em produzir códigos simples,
 testáveis, e manuteníveis em Python. Tenho sólidas habilidades com liderança técnica, orientação a objetos, princípios

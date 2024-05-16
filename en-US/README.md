@@ -7,8 +7,8 @@
 Hi! My name is Felipe Marques da Silva, I'm 29 years old, and I live with my girlfriend and our two cats in São
 Paulo/SP. Although I graduated as an Electrical Engineer, I've been working as a Software Developer and in related
 fields since I graduated. Most of my knowledge in Software Engineering was acquired through self-teaching, and I've also
-learned a lot from each of the professional experiences I've had. I listen to, write, and read English very well, and I
-have a little difficulty speaking it.
+learned a lot from each of the professional experiences I've had. I can listen to, write and read English at an advanced
+level, and I speak it at an intermediate level.
 
 I have experience in designing resilient and scalable software architectures, and in producing simple, testable, and
 maintainable code in Python. I have solid skills in technical leadership, object-oriented programming, SOLID principles,
